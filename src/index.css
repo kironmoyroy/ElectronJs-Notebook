@@ -1,0 +1,23 @@
+/* body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+} */
+
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+  Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.textarea{
+  padding: 2px;
+  outline: none;
+  border: none;
+  height: 100vh;
+  width: 100%;
+  overflow: visible;
+}  

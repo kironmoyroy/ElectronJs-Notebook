@@ -1,0 +1,37 @@
+{
+  "name": "Notebook",
+  "productName": "Notebook",
+  "version": "1.0.0",
+  "description": "  Notebook application create using Electron",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "build":"electron-builder"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Kironmoy Roy",
+    "email": "kiron.546.roy@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-window-state": "^5.0.3"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "22.1.0",
+    "electron-builder": "^23.6.0",
+    "nodemon": "^2.0.20"
+  }
+
+  
+}
